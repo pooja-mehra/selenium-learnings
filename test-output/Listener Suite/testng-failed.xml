@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Listener Suite]">
+  <listeners>
+    <listener class-name="customLlsteners.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="captureScreen(failed)">
+    <classes>
+      <class name="customLlsteners.TestCaptureScreen">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="doLogin"/>
+        </methods>
+      </class> <!-- customLlsteners.TestCaptureScreen -->
+    </classes>
+  </test> <!-- captureScreen(failed) -->
+</suite> <!-- Failed suite [Listener Suite] -->

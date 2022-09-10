@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Extent Suite" duration-ms="110" started-at="2022-09-08T10:26:00 PDT" finished-at="2022-09-08T10:26:00 PDT">
+    <groups>
+    </groups>
+    <test name="TestExtent" duration-ms="110" started-at="2022-09-08T10:26:00 PDT" finished-at="2022-09-08T10:26:00 PDT">
+      <class name="extentreports.TestExtent">
+        <test-method status="PASS" signature="readUpdates()[pri:0, instance:extentreports.TestExtent@3d74bf60]" name="readUpdates" duration-ms="13" started-at="2022-09-08T10:26:00 PDT" finished-at="2022-09-08T10:26:00 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readUpdates -->
+        <test-method status="PASS" signature="DoReg()[pri:1, instance:extentreports.TestExtent@3d74bf60]" name="DoReg" duration-ms="1" started-at="2022-09-08T10:26:00 PDT" finished-at="2022-09-08T10:26:00 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoReg -->
+        <test-method status="PASS" signature="DoLogin()[pri:2, instance:extentreports.TestExtent@3d74bf60]" name="DoLogin" duration-ms="2" started-at="2022-09-08T10:26:00 PDT" depends-on-methods="extentreports.TestExtent.DoReg" finished-at="2022-09-08T10:26:00 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoLogin -->
+      </class> <!-- extentreports.TestExtent -->
+    </test> <!-- TestExtent -->
+  </suite> <!-- Extent Suite -->
+</testng-results>

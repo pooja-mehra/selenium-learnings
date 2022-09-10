@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Extent Suite">
+<!-- Add extent listener to see extent report-->
+<!-- type allure server /path to allure-results to see allure reports -->
+<listeners>
+<listener class-name="allurelistener.AllureListener"></listener>
+</listeners>
+  <test name="TestExtent">
+    <classes>
+      <class name="extentreports.TestExtent"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
