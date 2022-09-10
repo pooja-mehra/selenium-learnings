@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Extent Suite">
 <!-- Add extent listener to see extent report-->
-<!-- type allure server /path to allure-results to see allure reports -->
+<!-- type allure server on terminal /path to allure-results to see allure reports -->
 <listeners>
 <listener class-name="allurelistener.AllureListener"></listener>
 </listeners>
